@@ -62,15 +62,35 @@ Descrição: Refaça o exercício anterior, mas agora com:
 14. Função com múltiplos parâmetros
 Descrição: Crie uma função que recebe nome, idade e cidade como parâmetros e imprime uma mensagem formatada.
 
-15. Projeto Final: Mini Cadastro com Tudo
-Descrição: Monte um mini sistema de cadastro de usuários que permite:
-- Adicionar um usuário (nome, idade, email)
-- Listar todos os usuários
-- Buscar um usuário pelo nome
-- Remover um usuário
-Utilize:
-- Funções para modularizar
-- Dicionários para armazenar os dados
-- Tratamento de erros para entradas inválidas
-- List comprehension se quiser formatar a exibição dos usuários
+15. Manipulação de Dados (update, get, del)
+Você vai criar um pequeno sistema de cadastro de produtos usando um dicionário. Cada produto tem um código (chave)
+e um dicionário com nome e preço (valor).
+Objetivo: Implementar as seguintes funções:
+- adicionar_produto(produtos, codigo, nome, preco)
+- atualizar_preco(produtos, codigo, novo_preco)
+- buscar_produto(produtos, codigo)
+- remover_produto(produtos, codigo)
 
+16. Filter
+Dada uma lista de dicionários representando pessoas, filtre apenas as que são maiores de idade (18 anos ou mais).
+Tarefa: Use filter para criar uma nova lista com apenas as pessoas com 18 anos ou mais. Dica: use lambda.
+
+17. Projeto Final: Mini Cadastro com Tudo
+Objetivo: Crie um sistema de cadastro de usuários que permita:
+- Adicionar um usuário (nome, idade, e-mail, cidade, profissão)
+- Listar todos os usuários
+- Buscar usuário por nome
+- Remover ou atualizar um usuário
+- Analisar dados (como média de idade, cidades únicas, maiores de idade etc.)
+Requisitos técnicos (obrigatório usar):
+-> Funções para organizar o código
+-> Listas de dicionários para armazenar os usuários
+-> Tuplas para dados fixos (ex: profissões válidas)
+-> Sets para mostrar valores únicos (ex: cidades)
+-> Arrays (do módulo array) para processar idades
+-> List Comprehension, map(), filter() e lambda para manipular dados
+-> Generator Expression para somar/contar dados
+-> Operadores, condicionais e loops para validar e processar informações
+-> Tratamento de erros: use try/except e também try/except/else/finally
+-> Manipulação de dados: get(), update(), del
+Extra (opcional): salvar ou ler dados de um arquivo.
