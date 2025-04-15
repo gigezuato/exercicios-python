@@ -1,0 +1,76 @@
+1. Operadores
+Descrição: Crie um programa que peça dois números ao usuário e exiba:
+- A soma
+- A subtração
+- A multiplicação
+- A divisão
+- O resto da divisão
+- O número elevado ao outro
+
+2. Controle de Fluxo - Condicionais
+Descrição: Peça um número ao usuário e diga se ele é:
+- Par ou ímpar
+- Positivo, negativo ou zero
+
+3. Controle de Fluxo - Loops
+Descrição: Peça um número e imprima a tabuada dele de 1 a 10 usando um for.
+
+4. Funções
+Descrição: Crie uma função que receba um número e retorne se ele é primo ou não.
+
+5. Lista e List Comprehension
+Descrição: Peça ao usuário para digitar 5 números. Salve esses números em uma lista. Em seguida:
+
+- Crie uma nova lista contendo apenas os números pares, usando list comprehension.
+- Imprima a soma de todos os números usando sum().
+
+6. Tuplas
+Descrição: Dado a tupla cores = ('vermelho', 'azul', 'verde', 'amarelo'), peça ao usuário um índice
+e imprima a cor correspondente. Trate se o índice for inválido.
+
+7. Dicionários
+Descrição: Crie um dicionário onde as chaves são nomes de produtos e os valores são os preços. Implemente:
+- Um menu para o usuário adicionar novos produtos
+- Consultar o preço de um produto
+- Listar todos os produtos
+
+8. Sets (conjuntos)
+Descrição: Dado duas listas com nomes de alunos de duas turmas, encontre:
+- Os alunos que estão nas duas turmas (interseção)
+- Os alunos que estão apenas na primeira turma
+- Todos os alunos únicos (união)
+
+9. Arrays (usando o módulo array)
+Descrição: Crie um array de inteiros. Peça ao usuário para digitar 5 números e adicione no array. Depois:
+- Exiba o maior, o menor e a média dos números.
+
+10. map() e lambda
+Descrição: Dada uma lista de idades [18, 21, 16, 30, 15], use map() e lambda para criar uma nova lista que diga:
+- "Maior de idade" ou "Menor de idade"
+
+11. Generator Expression
+Descrição: Crie um generator que gere os quadrados dos números de 1 a 10 e exiba-os um a um com um loop.
+
+12. try, except
+Descrição: Peça ao usuário dois números e divida o primeiro pelo segundo. Trate o caso de divisão por zero.
+
+13. try, except, else, finally
+Descrição: Refaça o exercício anterior, mas agora com:
+- else para mostrar o resultado se não houver erro
+- finally para mostrar uma mensagem de "Operação finalizada"
+
+14. Função com múltiplos parâmetros
+Descrição: Crie uma função que recebe nome, idade e cidade como parâmetros e imprime uma mensagem formatada.
+
+15. Projeto Final: Mini Cadastro com Tudo
+Descrição: Monte um mini sistema de cadastro de usuários que permite:
+- Adicionar um usuário (nome, idade, email)
+- Listar todos os usuários
+- Buscar um usuário pelo nome
+- Remover um usuário
+Utilize:
+- Funções para modularizar
+- Dicionários para armazenar os dados
+- Tratamento de erros para entradas inválidas
+- List comprehension se quiser formatar a exibição dos usuários
+
