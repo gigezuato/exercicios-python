@@ -1,0 +1,43 @@
+exs01) Projeto Final: Mini Cadastro com Tudo
+Objetivo: Crie um sistema de cadastro de usuários que permita:
+- Adicionar um usuário (nome, idade, e-mail, cidade, profissão)
+- Listar todos os usuários
+- Buscar usuário por nome
+- Remover ou atualizar um usuário
+- Analisar dados (como média de idade, cidades únicas, maiores de idade etc.)
+Requisitos técnicos (obrigatório usar):
+-> Funções para organizar o código
+-> Listas de dicionários para armazenar os usuários
+-> Sets para mostrar valores únicos (ex: cidades)
+-> Arrays (do módulo array) para processar idades
+-> List Comprehension, map(), filter() e lambda para manipular dados
+-> Generator Expression para somar/contar dados
+-> Operadores, condicionais e loops para validar e processar informações
+-> Tratamento de erros: use try/except e também try/except/else/finally
+-> Manipulação de dados: get(), update(), del
+Extra (opcional): salvar ou ler dados de um arquivo.
+
+
+exs02) Projeto Final – Painel Analítico de Dados Aleatórios
+Descrição: Monte um mini sistema que simula a coleta e análise de dados em uma pesquisa. O usuário pode gerar dados,
+visualizá-los e realizar análises estatísticas e lógicas.
+Funcionalidades obrigatórias:
+-> Gerar dados aleatórios
+- Gere um array 10x5 com dados inteiros aleatórios (ex: respostas de um formulário)
+-> Manipulação com NumPy
+- Exibir versão flatten, reshape, e transpose do array
+- Calcular média, soma e desvio padrão por coluna e linha
+- Usar where() para identificar valores acima da média
+-> Broadcasting e operações matemáticas
+- Some +10 a todos os dados de uma coluna
+- Multiplique por 2 os valores abaixo de 50
+-> Funções vetorizadas
+- Crie uma função classificar(x) que retorna:
+    - “Baixo” se x < 40
+    - “Médio” se 40 <= x < 70
+    - “Alto” se x >= 70
+- Aplique com np.vectorize
+-> Coleta de nomes com append e string
+- Peça 5 nomes de entrevistados
+- Exiba os nomes ordenados, capitalizados, invertidos e formatados
+
