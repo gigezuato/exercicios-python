@@ -1,8 +1,24 @@
 Exercício 1: Gerando dados aleatórios
-Use o módulo random para criar uma lista com 15 números inteiros aleatórios entre 1 e 100.
+Use o módulo random para gerar uma lista com 15 números inteiros aleatórios entre 1 e 100. Em seguida:
+- Mostre a lista completa.
+- Exiba o maior e o menor número da lista.
+- Embaralhe a lista com random.shuffle() e mostre o novo resultado.
+- Escolha um número aleatório da lista usando random.choice() e exiba-o.
+- Gere uma nova amostra com 5 números distintos da lista original usando random.sample().
+
 
 Exercício 2: Cadastro dinâmico com append
-Peça ao usuário que insira nomes até digitar "sair". Armazene os nomes em uma lista usando append() e exiba todos ao final.
+Crie um programa que:
+- Peça ao usuário que insira nomes até digitar "sair" (ignorando maiúsculas/minúsculas).
+- Armazene os nomes em uma lista usando append().
+Após a saída:
+- Exiba quantos nomes foram inseridos.
+- Mostre a lista original de nomes.
+- Mostre a lista em ordem alfabética.
+- Escolha e exiba um nome aleatório da lista usando random.choice().
+- Embaralhe a lista com random.shuffle() e exiba o novo resultado.
+- Gere uma amostra com 3 nomes diferentes da lista usando random.sample(), se houver nomes suficientes.
+
 
 Exercício 3: Manipulação de string
 Peça ao usuário para digitar uma frase. Exiba:
@@ -11,26 +27,34 @@ Peça ao usuário para digitar uma frase. Exiba:
 - A frase invertida
 - Se a palavra "Python" está presente
 
+
 Exercício 4: Criando arrays com NumPy
 Crie um array 2x3 com valores de 1 a 6. Exiba o array original, o flatten() e o reshape() para 3x2.
 
+
 Exercício 5: Operações matemáticas com arrays
-Crie dois arrays com 5 números aleatórios cada (entre 0 e 10). Some, subtraia, multiplique e divida os arrays entre si.
+Crie dois arrays com 6 números aleatórios cada (entre 0 e 10). Some, subtraia, multiplique e divida os arrays entre si.
+
 
 Exercício 6: Estatísticas com NumPy
 Crie um array com 10 números. Calcule: média, mediana, desvio padrão, valor máximo e mínimo.
 
+
 Exercício 7: Transposição de arrays
 Crie um array 3x2 e exiba sua transposição. Mostre como a transposição afeta os índices.
+
 
 Exercício 8: Condicional com where()
 Crie um array com 10 valores entre -10 e 10. Use np.where() para substituir os negativos por 0.
 
+
 Exercício 9: Broadcasting
 Crie um array 2x3 e um array 1x3. Use broadcasting para somá-los. Explique o resultado.
 
+
 Exercício 10: Funções vetorizadas
 Crie uma função que calcule x² + 2x + 1 e aplique essa função a um array com np.vectorize().
+
 
 Exercício 11 – Sorteio e Análise
 Gere uma matriz 5x5 de inteiros aleatórios entre 10 e 99.
@@ -38,6 +62,7 @@ Gere uma matriz 5x5 de inteiros aleatórios entre 10 e 99.
 - Aplique reshape, flatten, transpose.
 - Filtre com np.where() apenas os números pares.
 - Mostre a média, soma total e desvio padrão.
+
 
 Exercício 12 – Vetorizando com condições
 Crie um array com 15 valores aleatórios entre -20 e 20.
@@ -61,4 +86,3 @@ Gere um array 7x4 com temperaturas de 4 cidades em 7 dias.
 - Mostre as temperaturas médias por cidade.
 - Encontre os dias mais quentes com where().
 - Exiba qual cidade teve a maior temperatura e qual a menor.
-
