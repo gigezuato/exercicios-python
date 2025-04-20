@@ -81,7 +81,7 @@ Exiba:
 - Nomes todos em maiúsculo usando list comprehension
 
 Exercício 14 – Simulador de Dados de Temperatura
-Gere um array 7x4 com temperaturas de 4 cidades em 7 dias.
+Gere um array 4X7 com temperaturas de 4 cidades em 7 dias.
 => Use random.uniform(15, 35) com np.array.
 - Mostre as temperaturas médias por cidade.
 - Encontre os dias mais quentes com where().

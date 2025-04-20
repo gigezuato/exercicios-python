@@ -1,5 +1,6 @@
 from funcionalidades.cadastros import *
 from funcionalidades.interface import *
+from funcionalidades.analises import *
 
 titulo('MINI CADASTRO', '-*', 30)
 usuarios = []
@@ -53,7 +54,9 @@ while True:
                                         break
             case 5:
                 subtitulo('ANÁLISE DOS DADOS', '-', 25)
-
+                idades = array_idade(usuarios)
+                cidades = set_cidade(usuarios)
+                analise_idades(idades)
             case 6:
                 break
             case _:
