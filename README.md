@@ -1,7 +1,7 @@
 # 🐍 exercicios-python
 Exercícios e projetos para praticar e fixar o conteúdo que estou aprendendo.
 ### Conteúdos
-* Enunciados -> arquivo com os enunciados dos exercícios
+* **Enunciados** -> arquivos com os enunciados dos exercícios (há um dentro de cada diretório)
 * exs01 -> contém exercícios baseados no conteúdo do curso: **"Python Completo do Zero ao Avançado + Projetos Reais 2025" - Udemy**
   * Operadores
   * Condicionais
