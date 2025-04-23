@@ -1,4 +1,4 @@
-exs01) Projeto Final: Mini Cadastro com Tudo
+1. exs01) Projeto Final: Mini Cadastro com Tudo
 Objetivo: Crie um sistema de cadastro de usuários que permita:
 - Adicionar um usuário (nome, idade, e-mail, cidade, profissão)
 - Listar todos os usuários
@@ -18,7 +18,7 @@ Requisitos técnicos (obrigatório usar):
 Extra (opcional): salvar ou ler dados de um arquivo.
 
 
-exs02) Projeto Final – Painel Analítico de Dados Aleatórios
+1. exs02) Projeto Final – Painel Analítico de Dados Aleatórios
 Descrição: Monte um mini sistema que simula a coleta e análise de dados em uma pesquisa. O usuário pode gerar dados,
 visualizá-los e realizar análises estatísticas e lógicas.
 Funcionalidades obrigatórias:
@@ -41,3 +41,62 @@ Funcionalidades obrigatórias:
 - Peça 5 nomes de entrevistados
 - Exiba os nomes ordenados, capitalizados, invertidos e formatados
 
+
+2. exs01) Projeto Final - Gerenciador de Tarefas
+Objetivo: Criar um sistema de gerenciamento de tarefas onde o usuário pode:
+- Adicionar tarefas
+- Listar todas as tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Filtrar tarefas por status (pendente/concluída)
+=> Requisitos Técnicos:
+1. POO
+- Classes: Tarefa, Usuario, GerenciadorTarefas
+- Uso de atributos privados e métodos de acesso
+- Encapsulamento, boas práticas e lógica de objetos
+2. Módulos e Pacotes
+- Separe o projeto em pacotes/módulos
+=> Descrição das Classes:
+Tarefa (em modelos/tarefa.py)
+- Atributos: título, descrição, status (pendente/concluída)
+- Métodos: marcar_concluida(), _str_()
+Usuario (em modelos/usuario.py)
+- Atributos: nome, lista de tarefas
+- Métodos: adicionar_tarefa(), remover_tarefa(), listar_tarefas()
+GerenciadorTarefas (em sistema/gerenciador.py)
+- Responsável pela lógica do sistema (interface de texto)
+- Métodos para interagir com o usuário: adicionar, listar, filtrar, etc.
+=> Funcionalidades Mínimas no main.py:
+- Menu interativo (loop while com opções)
+- Criação de um usuário
+- Manipulação das tarefas via GerenciadorTarefas
+=> Extras (opcional):
+- Adicionar data de criação da tarefa (datetime)
+- Salvar as tarefas em um arquivo .txt ou .json (com módulo separado arquivo.py)
+- Tratar exceções com try/except
+
+2. exs02) Projeto Final: Análise de Desempenho Escolar
+Descrição: Crie um sistema de análise de desempenho de alunos a partir de um arquivo CSV com os seguintes dados:
+- Nome do Aluno
+- Idade
+- Curso
+- Nota 1
+- Nota 2
+- Nota 3
+=> Objetivo:
+- Carregar os dados com Pandas
+- Calcular a média final de cada aluno
+- Tratar possíveis valores faltantes nas notas
+- Exibir estatísticas com .describe() e .value_counts()
+- Gerar:
+Histograma das médias finais
+Gráfico de dispersão entre "Idade" e "Média Final"
+Boxplot das notas
+=> Funcionalidades esperadas:
+- Renomear colunas para melhor leitura
+- Remover alunos com todas as notas faltantes
+- Preencher valores ausentes com a média da coluna
+- Criar filtros com .loc (ex: exibir alunos com média > 7)
+=> Extras (opcional):
+- Criar um sistema de “status” (Aprovado/Reprovado)
+- Exportar um novo DataFrame com os dados tratados para CSV

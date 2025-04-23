@@ -74,3 +74,47 @@ Objetivo: Implementar as seguintes funções:
 16. Filter
 Dada uma lista de dicionários representando pessoas, filtre apenas as que são maiores de idade (18 anos ou mais).
 Tarefa: Use filter para criar uma nova lista com apenas as pessoas com 18 anos ou mais. Dica: use lambda.
+
+17. Classe Pessoa em Módulo
+Crie um arquivo pessoa.py com a classe Pessoa (nome, idade) e um método apresentar().
+Em outro arquivo main.py, importe a classe e instancie um objeto.
+
+18. Módulo de Cálculo de Área
+Crie um módulo chamado formas.py com classes Quadrado e Retangulo, cada uma com métodos para calcular a área.
+Importe e use no main.py.
+
+19. Pacote de Animais
+Crie um pacote animais com dois módulos: gato.py e cachorro.py, cada um contendo uma classe com um método falar().
+Importe ambos em main.py e chame os métodos.
+
+20. Classe Produto com Desconto (Módulo separado)
+Crie um módulo produto.py com a classe Produto e o método aplicar_desconto().
+Em main.py, importe, crie produtos e aplique descontos.
+
+21. Módulo Banco
+Crie um módulo banco.py com uma classe ContaBancaria com métodos depositar(), sacar() e ver_saldo().
+No main.py, faça operações com uma conta.
+
+22. Pacote Escola com Classes Separadas
+Crie um pacote escola com módulos aluno.py (classe Aluno), professor.py e turma.py.
+Implemente um sistema que permite criar turmas, adicionar alunos e atribuir professores.
+
+23. Pacote Biblioteca com Gerenciamento de Livros
+Crie um pacote biblioteca com módulos livro.py, usuario.py e gerenciador.py.
+Implemente classes e lógica para emprestar e devolver livros. Faça os testes no main.py.
+
+24. Herança com Pacotes
+Crie um pacote empresa com classes Funcionario, Gerente (herança) e FolhaPagamento.
+Implemente métodos de cálculo de salário, bônus e gere um relatório.
+
+25. Módulo de utilitários + tratamento de exceções
+Crie um módulo utils.py com funções como validar_email() e ler_numero(), usando try, except, else, finally.
+Use essas funções em outras partes do sistema.
+
+26. Projeto Mini Sistema de Vendas Modularizado
+Crie um sistema com os seguintes módulos/pacotes:
+- produto.py: classe Produto
+- cliente.py: classe Cliente
+- pedido.py: classe Pedido (com métodos para adicionar produtos, calcular total)
+- main.py: simulação de vendas
+Use _init_.py nos pacotes, boas práticas de importação e separação de responsabilidades.

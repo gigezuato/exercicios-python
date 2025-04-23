@@ -1,4 +1,4 @@
-Exercício 1: Gerando dados aleatórios
+1 - Gerando dados aleatórios
 Use o módulo random para gerar uma lista com 15 números inteiros aleatórios entre 1 e 100. Em seguida:
 - Mostre a lista completa.
 - Exiba o maior e o menor número da lista.
@@ -6,8 +6,7 @@ Use o módulo random para gerar uma lista com 15 números inteiros aleatórios e
 - Escolha um número aleatório da lista usando random.choice() e exiba-o.
 - Gere uma nova amostra com 5 números distintos da lista original usando random.sample().
 
-
-Exercício 2: Cadastro dinâmico com append
+2 - Cadastro dinâmico com append
 Crie um programa que:
 - Peça ao usuário que insira nomes até digitar "sair" (ignorando maiúsculas/minúsculas).
 - Armazene os nomes em uma lista usando append().
@@ -19,59 +18,49 @@ Após a saída:
 - Embaralhe a lista com random.shuffle() e exiba o novo resultado.
 - Gere uma amostra com 3 nomes diferentes da lista usando random.sample(), se houver nomes suficientes.
 
-
-Exercício 3: Manipulação de string
+3 - Manipulação de string
 Peça ao usuário para digitar uma frase. Exiba:
 - Quantas palavras tem
 - A frase em maiúsculas
 - A frase invertida
 - Se a palavra "Python" está presente
 
-
-Exercício 4: Criando arrays com NumPy
+4 - Criando arrays com NumPy
 Crie um array 2x3 com valores de 1 a 6. Exiba o array original, o flatten() e o reshape() para 3x2.
 
-
-Exercício 5: Operações matemáticas com arrays
+5 - Operações matemáticas com arrays
 Crie dois arrays com 6 números aleatórios cada (entre 0 e 10). Some, subtraia, multiplique e divida os arrays entre si.
 
-
-Exercício 6: Estatísticas com NumPy
+6 - Estatísticas com NumPy
 Crie um array com 10 números. Calcule: média, mediana, desvio padrão, valor máximo e mínimo.
 
-
-Exercício 7: Transposição de arrays
+7 - Transposição de arrays
 Crie um array 3x2 e exiba sua transposição. Mostre como a transposição afeta os índices.
 
-
-Exercício 8: Condicional com where()
+8 - Condicional com where()
 Crie um array com 10 valores entre -10 e 10. Use np.where() para substituir os negativos por 0.
 
-
-Exercício 9: Broadcasting
+9 - Broadcasting
 Crie um array 2x3 e um array 1x3. Use broadcasting para somá-los. Explique o resultado.
 
-
-Exercício 10: Funções vetorizadas
+10 - Funções vetorizadas
 Crie uma função que calcule x² + 2x + 1 e aplique essa função a um array com np.vectorize().
 
-
-Exercício 11 – Sorteio e Análise
+11 – Sorteio e Análise
 Gere uma matriz 5x5 de inteiros aleatórios entre 10 e 99.
 - Exiba a matriz original.
 - Aplique reshape, flatten, transpose.
 - Filtre com np.where() apenas os números pares.
 - Mostre a média, soma total e desvio padrão.
 
-
-Exercício 12 – Vetorizando com condições
+12 – Vetorizando com condições
 Crie um array com 15 valores aleatórios entre -20 e 20.
 Crie uma função que classifica um valor como:
 - “Negativo”, “Zero” ou “Positivo”
 => Use np.vectorize() para aplicar a função a todos os elementos.
 => Exiba a contagem de cada categoria usando manipulação de strings e list comprehension.
 
-Exercício 13 – Processador de nomes
+13 – Processador de nomes
 Peça ao usuário que digite 10 nomes (com append) e armazene-os em uma lista.
 Exiba:
 - Nomes em ordem alfabética
@@ -80,9 +69,40 @@ Exiba:
 - Lista invertida
 - Nomes todos em maiúsculo usando list comprehension
 
-Exercício 14 – Simulador de Dados de Temperatura
+14 – Simulador de Dados de Temperatura
 Gere um array 4X7 com temperaturas de 4 cidades em 7 dias.
 => Use random.uniform(15, 35) com np.array.
 - Mostre as temperaturas médias por cidade.
 - Encontre os dias mais quentes com where().
 - Exiba qual cidade teve a maior temperatura e qual a menor.
+
+15 - Leitura de Arquivos
+Leia um arquivo CSV chamado dados.csv usando read_csv e exiba as 5 primeiras linhas com head().
+
+16 - Leitura de Excel
+Leia um arquivo Excel chamado alunos.xlsx e exiba as informações do DataFrame.
+
+17 - Trabalhando com Series
+Crie uma Series com os números de 1 a 10 e calcule a média.
+
+18 - Acessando Dados com loc
+Utilize .loc para exibir os dados de um aluno chamado "Carlos" na coluna "Notas".
+
+19 - Renomeando Colunas
+Renomeie as colunas de um DataFrame de ["Nome", "Nota"] para ["Aluno", "Desempenho"].
+
+20 - Contagem de Valores
+Utilize value_counts() para contar quantas vezes cada valor aparece na coluna "Curso".
+
+21 - Eliminando e Preenchendo Dados Faltantes
+Dado um DataFrame com dados faltantes, use isnull() para identificá-los, dropna() para removê-los e fillna()
+para preenchê-los com a média da coluna.
+
+22 - Gráfico de Dispersão com Matplotlib
+Com uma base de dados simples de altura e peso, crie um gráfico de dispersão.
+
+23 - Histograma e Boxplot
+Usando a coluna "Idade", gere um histograma e um boxplot para analisar a distribuição dos dados.
+
+24 - Misturando NumPy + Pandas
+Crie um DataFrame com dados gerados aleatoriamente usando NumPy e aplique as funções describe(), dropna() e fillna().
