@@ -17,6 +17,8 @@ Exercícios e projetos para praticar e fixar o conteúdo que estou aprendendo.
   * Try, except, else e finally
   * Manipulação de dados
   * Filter
+  * POO
+  * Módulos e Pacotes
 * exs02 -> contém exercícios baseados no conteúdo do curso: **"Python 2025 - Curso completo e rápido" - Udemy**
   * random
   * append
@@ -26,6 +28,11 @@ Exercícios e projetos para praticar e fixar o conteúdo que estou aprendendo.
   * where( )
   * Broadcasting
   * Funções vetorizadas
+  * Pandas
+  * Matplotlib
+  * Dados faltantes
 * projetosFinais -> contém projetos mais complexos, envolvendo vários tópicos dos exercícios já passados.
   1. Mini Cadastro
   2. Painel Analítico de Dados Aleatórios
+  3. Gerenciador de Tarefas
+  4. Análise de Desempenho Escolar
